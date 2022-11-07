@@ -1,0 +1,103 @@
+header{
+    height: 2.7rem;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+}
+section{
+    padding-top: 2.7rem;
+}
+.navbar{
+    border-bottom: 1px solid #e8e8e8;
+}
+#navbarSupportedContent{
+    justify-content: flex-end;
+}
+#my-navbar a{
+    color: #0088cc ;
+}
+#my-navbar a:hover{
+    border-bottom: 3px solid #0088cc ;
+}
+.dropdown-menu a:hover{
+    background-color: #b4e1f8;
+}
+body{
+  font-family:     "Lucida Grande";
+}
+.img-tele{
+    width: -webkit-fill-available;
+    max-width: 200px;
+}
+.recent-cards{
+    display: block;
+    color: #0088cc;
+}
+.card-subtitle{
+    color: black;
+    font-weight: bold;
+}
+.card-body p:hover{
+    text-decoration: underline;
+}
+.card-title{
+    font-size: 17px;
+    font-weight: bold;
+}
+.card-subtitle{
+    font-size: 12px;
+}
+.card-body{
+    font-size: 13px;
+}
+.new-era{
+    color: gray ;
+    font-weight: lighter;
+}
+.recent-news-cont{
+    right: 0;
+}
+.download-row-1 a{
+    color: #0088cc;
+    font-weight: lighter;
+    text-decoration: none;
+}
+.download-card:hover{
+    border-bottom: 5px solid #0088cc;
+}
+.download-pc a{
+    color: #0088cc;
+    font-weight: lighter;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.recent-news-section h4,h5{
+    color: #0088cc;
+}
+.recent-news-section h5:hover{
+    text-decoration: underline;
+}
+.recent-news-section p:hover{
+    text-decoration: none;
+}
+.why-telegram h5{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.why-telegram p{
+    font-size: 1rem;
+}
+footer{
+    border-top: 1px solid rgb(220, 220, 220);
+}
+footer p,li{
+    font-size: 0.8rem;
+    list-style-type: none;
+}
+footer ul{
+    padding: 0;
+}
+footer a{
+text-decoration: none;
+}
